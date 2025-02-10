@@ -1,0 +1,141 @@
+﻿<Window x:Class="De3WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:De3WPF"
+        mc:Ignorable="d" FontSize="18"
+        Title="Bài kiểm tra thường xuyên 2" Height="619" Width="800" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="TitleStyle">
+            <Setter Property="Foreground" Value="DarkOrange"/>
+            <Setter Property="FontSize" Value="35"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,0,0,20"/>
+             
+        </Style>
+
+        <Style TargetType="Grid" x:Key="GridStyle">
+            <Setter Property="Background" Value="LightSteelBlue"/>
+           
+        </Style>
+
+        <Style TargetType="Label" x:Key="LableStyle">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Margin" Value="0 0 0 10"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        
+        </Style>
+
+        <Style TargetType="TextBox" x:Key="TextBoxStyle">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Foreground" Value="Green"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+
+        <Style TargetType="DataGrid" x:Key="DatagGridStyle">
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+        <Style TargetType="Button" x:Key="ButtonStyle" >
+
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="50"/>
+            
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="50" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Button" x:Key="PinkBtnStyle" BasedOn="{StaticResource ButtonStyle}">
+            <Setter Property="Background" Value="Pink"/>
+            <Setter Property="BorderBrush" Value="DarkRed"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+        <Style TargetType="Button" x:Key="BlueBtnStyle" BasedOn="{StaticResource ButtonStyle}">
+            <Setter Property="Background" Value="Blue"/>
+            <Setter Property="BorderBrush" Value="DarkBlue"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style TargetType="RadioButton" x:Key="RadioBtn">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Margin" Value="0 0 30 0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+        </Style>
+    </Window.Resources>
+    <Border BorderBrush="Green" BorderThickness="3">
+        
+    <Grid Style="{StaticResource GridStyle}" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Thông tin nhân viên" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5" Style="{StaticResource TitleStyle}"/>
+        <Label Content="Mã Nhân Viên: " Grid.Column="1" Grid.Row="2"  Style="{StaticResource LableStyle}"/>
+        <TextBox Name="txtMaNV" Grid.Column="2" Grid.Row="2"  Width="250" Style="{StaticResource TextBoxStyle}"/>
+        <Label Content="Họ tên: " Grid.Column="1" Grid.Row="3"  Style="{StaticResource LableStyle}"/>
+        <TextBox Name="txtHoTen" Grid.Column="2" Grid.Row="3"   Width="500" Style="{StaticResource TextBoxStyle}" />
+        <Label Content="Giới tính: " Grid.Column="1" Grid.Row="4" Style="{StaticResource LableStyle}" />
+        <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="4">
+            <RadioButton Name="rdoNam" Content="Nam" GroupName="GioiTinh" Style="{StaticResource RadioBtn}" IsChecked="True"/>
+            <RadioButton Name="rdoNu" Content="Nữ" GroupName="GioiTinh" Style="{StaticResource RadioBtn}"/>
+        </StackPanel>
+        <Label Content="Số tiền bán hàng" Grid.Column="1" Grid.Row="5" Style="{StaticResource LableStyle}"/>
+        <TextBox Name="txtSoTienBanHang" Grid.Column="2" Grid.Row="5" Width="200" Style="{StaticResource TextBoxStyle}" />
+        <TextBlock Text="Danh sách nhân viên:" Grid.Column="1" Grid.Row="6" Margin="0 10" />
+            <Border BorderBrush="Green" BorderThickness="2" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="5">
+                
+            <DataGrid Name="dgNhanVien" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="5" AutoGenerateColumns="False" CanUserAddRows="False" Height="200" Style="{StaticResource DatagGridStyle}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã NV" Binding="{Binding MaNV}" Width="100"/>
+                <DataGridTextColumn Header="Họ tên" Binding="{Binding HoTen}" Width="200"/>
+                <DataGridTextColumn Header="Giới tính" Binding="{Binding GioiTinh}" Width="100"/>
+                <DataGridTextColumn Header="Số tiền bán hàng" Binding="{Binding SoTienBanHang}" Width="200"/>
+                <DataGridTextColumn Header="Số tiền hoa hồng" Binding="{Binding SoTienHoaHong}" Width="200"/>
+            </DataGrid.Columns>
+        </DataGrid>
+            </Border>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="5" HorizontalAlignment="Center" Margin="0 10 0 0" >
+            <Button  Content="Thêm" Grid.Column="2" Grid.Row="8" Click="btnThem_Click"  Style="{StaticResource PinkBtnStyle}"/>
+            <Button  Content="Window 2" Grid.Column="3" Grid.Row="8" Click="btnWindow2_Click"  Margin="30 0 0 0" Style="{StaticResource BlueBtnStyle}"/>
+        </StackPanel>
+    </Grid>
+    </Border>
+
+</Window>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "d5CTC8nINZo=",
+  "success": true,
+  "projectFilePath": "D:\\My storage\\Desktop\\Learning-corner\\Learn_NET\\De3WPF\\De3WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Inspiron\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Inspiron\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Inspiron\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Inspiron\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
