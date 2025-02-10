@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\My storage\\Desktop\\Learning-corner\\Learn_NET\\De3WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|d:\\my storage\\desktop\\learning-corner\\learn_net\\de3wpf\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|solutionrelative:window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|d:\\my storage\\desktop\\learning-corner\\learn_net\\de3wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|d:\\my storage\\desktop\\learning-corner\\learn_net\\de3wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|d:\\my storage\\desktop\\learning-corner\\learn_net\\de3wpf\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|solutionrelative:window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9D32090-0DA8-40D0-8ED0-C7B2A53C2E56}|De3WPF.csproj|d:\\my storage\\desktop\\learning-corner\\learn_net\\de3wpf\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Window2.xaml.cs",
               "DocumentMoniker": "D:\\My storage\\Desktop\\Learning-corner\\Learn_NET\\De3WPF\\Window2.xaml.cs",
               "RelativeDocumentMoniker": "Window2.xaml.cs",
-              "ToolTip": "D:\\My storage\\Desktop\\Learning-corner\\Learn_NET\\De3WPF\\Window2.xaml.cs*",
-              "RelativeToolTip": "Window2.xaml.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAArwCkAAAAXAAAAAAAAAA==",
+              "ToolTip": "D:\\My storage\\Desktop\\Learning-corner\\Learn_NET\\De3WPF\\Window2.xaml.cs",
+              "RelativeToolTip": "Window2.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAArwCkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T18:33:08.716Z",
               "EditorCaption": ""
@@ -54,8 +54,7 @@
               "ToolTip": "D:\\My storage\\Desktop\\Learning-corner\\Learn_NET\\De3WPF\\Window2.xaml",
               "RelativeToolTip": "Window2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-10T18:23:56.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T18:23:56.106Z"
             },
             {
               "$type": "Document",
@@ -67,12 +66,11 @@
               "RelativeToolTip": "NhanVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T18:01:51.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T18:01:51.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\My storage\\Desktop\\Learning-corner\\Learn_NET\\De3WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -84,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\My storage\\Desktop\\Learning-corner\\Learn_NET\\De3WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",

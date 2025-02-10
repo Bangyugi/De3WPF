@@ -20,3 +20,4 @@ D:\My storage\Desktop\Learning-corner\Learn_NET\De3WPF\obj\Debug\net6.0-windows\
 D:\My storage\Desktop\Learning-corner\Learn_NET\De3WPF\obj\Debug\net6.0-windows\ref\De3WPF.dll
 D:\My storage\Desktop\Learning-corner\Learn_NET\De3WPF\obj\Debug\net6.0-windows\Window2.g.cs
 D:\My storage\Desktop\Learning-corner\Learn_NET\De3WPF\obj\Debug\net6.0-windows\Window2.baml
+D:\My storage\Desktop\Learning-corner\Learn_NET\De3WPF\obj\Debug\net6.0-windows\De3WPF.sourcelink.json
